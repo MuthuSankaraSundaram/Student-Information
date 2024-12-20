@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Details</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="box">
+        <div id="bodypart">
+            <h1>STUDENT FORM</h1>
+            <table border="1" id="box1">
+                <tr>
+                    <th>Name</th> <td><input type="text" id="val1" placeholder="Enter Your Name" required></td>
+                </tr>
+                <tr>
+                    <th>Age</th> <td><input type="number" id="val2" placeholder="Enter Your Age"></td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        <input type="radio" name="Gender" id="val3" required>Male
+                        <input type="radio" name="Gender">Female
+                    </td>
+                </tr>
+                <tr>
+                    <th>Select a Course</th>
+                    <td>
+                        <select  id="val4">
+                            <option>JAVA SCRIPT</option>
+                            <option>Java</option>
+                            <option>Node Js</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>E-mail</th>
+                    <td><input type="email" id="val5" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color: aqua; width: 50px;height: 20px; text-align: center;"><button type="button" onclick="add()" style=" border-color: aqua;border-style: none; background-color: aqua;">SAVE</button></td>
+                </tr>
+            </table>
+        </div>
+<hr><hr><br><br><br>
+        <table border="1" id="box2">
+            
+            <tbody id="val6">
+                <tr>
+                    <th>Name</th> <th>Age</th> <th>Gender</th> <th>Select a Course</th> <th>E-mail</th> <th>Action</th>
+                </tr>
+            </tbody>
+        </table>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>
+
+
+
+
+   

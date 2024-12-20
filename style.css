@@ -1,0 +1,9 @@
+#id{
+   margin: auto;
+   width: 200;
+}
+
+#box,#box1,#box2{
+    margin: auto;
+    text-align: center;
+}
